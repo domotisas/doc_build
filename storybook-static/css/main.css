@@ -352,7 +352,7 @@ a {
 /* ---------------------------------- */
 /* IMPORTANT : this is the KNACSS v6 old Grid System based on Flexbox */
 /* You only need it for projects on older browsers (IE11-) */
-@media (min-width: 320px) {
+@media (min-width: 768px) {
   [class*=" grid-"],
   [class^="grid-"] {
     display: flex;
@@ -364,7 +364,7 @@ a {
       min-width: 0;
       min-height: 0; } }
 
-@media (min-width: 320px) {
+@media (min-width: 768px) {
   .grid,
   .grid--reverse {
     display: flex; }
@@ -383,7 +383,7 @@ a {
     .grid--reverse.has-gutter-xl > * + * {
       margin-left: calc(4rem - 0.01px); } }
 
-@media (min-width: 320px) {
+@media (min-width: 768px) {
   [class*="grid-2"] > * {
     width: calc(100% / 2 - 0.01px); }
   [class*="grid-2"].has-gutter {
@@ -653,7 +653,7 @@ a {
 [class*="grid-"][class*="--reverse"] {
   flex-direction: row-reverse; }
 
-@media (min-width: 320px) {
+@media (min-width: 768px) {
   .full {
     flex: 0 0 auto;
     width: calc(100% / 1 - 0.01px); }
@@ -737,7 +737,7 @@ a {
     width: calc(100% / 6 * 5 - 4rem - 0.01px); } }
 
 /* Responsive Small Breakpoint */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 768px) and (max-width: 1151px) {
   [class*="-small-1"] > * {
     width: calc(100% / 1 - 0.01px); }
   [class*="-small-1"].has-gutter > * {
@@ -772,7 +772,7 @@ a {
     width: calc(100% / 4 - 4rem - 0.01px); } }
 
 /*Mixins à personnaliser perso*/
-@media (min-width: 321px) {
+@media (min-width: 769px) {
   .grid-sans-gouttiere > * {
     width: calc(100% / 3 - 0.01px); }
   .grid-sans-gouttiere.has-gutter {
@@ -797,7 +797,7 @@ a {
       margin-right: 2rem;
       margin-left: 2rem; } }
 
-@media (min-width: 321px) {
+@media (min-width: 769px) {
   .grid-perso {
     margin-right: -1rem;
     margin-left: -1rem; }
