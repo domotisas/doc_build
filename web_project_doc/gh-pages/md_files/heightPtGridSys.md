@@ -11,3 +11,8 @@
     <span id="gridSys8Render" class="result"> </span>
   </div>
 </form>
+
+## UX rules
+
+- space between elements → **never below 8px** (16px is more realist) [👁 → material.io](https://material.io/design/layout/spacing-methods.html#touch-targets)
+- button size → **never below 48px**
