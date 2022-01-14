@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+> with node 12 (nvm) if bug like sass and or ```react return (new fsevents(path)).on('fsevent', callback).start()``` do this
+```
+# switch to node 12
+nvm use 12
+rm -rf node_modules yarn.lock
+npm rebuild node-sass
+yarn start # or
+npm start
+# enjoy ❤️ create-react-app
+```
+
 ## Available Scripts
 
 In the project directory, you can run:
