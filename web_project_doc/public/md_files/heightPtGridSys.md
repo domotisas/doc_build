@@ -11,3 +11,8 @@
     <span id="gridSys8Render" class="result"> </span>
   </div>
 </form>
+
+## UX rules
+
+- space between elements → **never below 8px** (16px is more realist)
+- button size → **never below 48px**
