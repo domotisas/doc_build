@@ -7,6 +7,7 @@ const listLink = [
   { id: 4, text: 'Atomic Design Method', link: 'atomic_design_systeme_SK.md' },
   { id: 5, text: 'Atomic Design exemples', link: 'atomic_design_exemples.md' },
   { id: 6, text: 'Grids out of date ', link: 'grids.md' },
+  { id: 7, text: 'Colors ', link: 'colors.md' },
   // { id: 7, text: 'React', link: 'react.md' },
 ]
 
@@ -48,7 +49,7 @@ const Link = ({ onClick, e, id }) => {
                   ? 'items-list__link items-list__link--actif'
                   : 'items-list__link'
               }
-              href={`#filename:~${item.link}/`}
+              href={`#filename:~${ item.link }/`}
               onClick={e => {
                 onClick(item.link, e, item.id)
               }}
