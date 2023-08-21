@@ -1,6 +1,17 @@
+# Edit or add gh-pages
+
+> gh-pages is github pages delivery on push after build and replace gb-pages by build content.
+
+1. go to web_project_doc run ```npm start```
+2. edit or add markdown page
+3. it's ok: ```npm build```
+4. copy the contents of the build folder into the gh-pages folder
+5. publish ```git add .``` ```git ci -m'**feat** my new page'``` ```git push```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 > with node 12 (nvm) if bug like sass and or ```react return (new fsevents(path)).on('fsevent', callback).start()``` do this
+
 ```
 # switch to node 12
 nvm use 12
@@ -56,31 +67,31 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This section has moved here: <https://facebook.github.io/create-react-app/docs/code-splitting>
 
 ### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This section has moved here: <https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size>
 
 ### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This section has moved here: <https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app>
 
 ### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This section has moved here: <https://facebook.github.io/create-react-app/docs/advanced-configuration>
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This section has moved here: <https://facebook.github.io/create-react-app/docs/deployment>
 
 ### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This section has moved here: <https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify>
 
 ### markdown
 
-[ import multiple markdown source --medium article ]( https://medium.com/@shawnstern/importing-multiple-markdown-files-into-a-react-component-with-webpack-7548559fce6f )
+[import multiple markdown source --medium article]( https://medium.com/@shawnstern/importing-multiple-markdown-files-into-a-react-component-with-webpack-7548559fce6f )
 
 ### load multiple files at once use Webpack
 
