@@ -8,6 +8,7 @@ const listLink = [
   { id: 5, text: 'Atomic Design exemples', link: 'atomic_design_exemples.md' },
   { id: 6, text: 'Grids out of date ', link: 'grids.md' },
   { id: 7, text: 'Colors ', link: 'colors.md' },
+  { id: 8, text: 'CoreWeb static files ', link: 'staticfiles.md' },
   // { id: 7, text: 'React', link: 'react.md' },
 ]
 
